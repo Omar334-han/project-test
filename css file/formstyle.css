@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image:url("../image file/ishan-seefromthesky-Fj_39H4NeOo-unsplash.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: left center;
+        
+}
+.main-div{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content:center;    
+}
+.form-div{
+   width: 30%;
+   height: auto;
+   align-self:center;
+   
+}

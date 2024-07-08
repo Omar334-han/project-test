@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.list-cls{
+    margin: 20px;
+    padding: 10px;
+    font-size: 24px;
+    font-family: sans-serif;
+    color: #02875a;
+}
+.general-cls{
+    margin: 10px;
+    padding: 5px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:red;
+}
+.item{
+    display:inline;
+    margin: 8px;
+    padding: 5px;
+}
+#root-para{
+    color: #272c29;
+    background-color: #cbcecd;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 5px;
+    padding: 5px;
+}
+.list2-cls{
+    margin: 27px;
+    color:#069dae;
+    text-decoration:none;
+    
+}
+.anchor-p{
+    text-align: center;
+}
+a{
+    
+    text-decoration:none;
+    font-size: 20px;
+    color:#272c29;
+    padding: 8px 15px;
+    transition: color 1s ease-in-out;
+}
+.anchor-div{
+    border-radius: 8px;
+    border: 1px solid gray;
+    padding: 8px 10px;
+    transition: background-color 1s ease-in-out;
+    
+   
+}
+.main-ancr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-div{ 
+    border: 2px solid rgb(25, 24, 23);
+    border-radius: 10px;
+    padding: 5px;
+    margin: 15px;
+    display: block;
+    flex:1 1 300px;
+    transition: box-shadow .8s ease;
+
+}
+.card-div:hover{
+    box-shadow:8px 8px 8px darkgray;
+}
+.main-div{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+
+}
+.div-text{
+    font-size:20px;   
+    padding: 5px;
+
+}
+.anchor-div:hover{
+    background-color:#039b68;
+    color:aliceblue;
+}
+a:hover{
+    color: whitesmoke;
+}
+.one{
+    order: 1;
+}
+.two{
+    order: 4;
+}
+.three{
+    order: 3;
+}
+.four{
+    order: 2;
+}
+
+
+.list-main-div{
+    display:flex;
+    justify-content:end;
+}
+
